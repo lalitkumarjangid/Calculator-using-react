@@ -1,0 +1,42 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: black;
+}
+
+.calc {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: none;
+  box-shadow: -1px -1px 10px rgb(47, 203, 255);
+}
+
+#input {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  height: 100px;
+  border: none;
+  background: transparent;
+  text-align: center;
+  color: azure;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  color: aliceblue;
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: 6px 6px 10px rgb(47, 203, 255), -6px -6px 10px rgb(47, 203, 255);
+}
